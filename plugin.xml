@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="com.plugin.phone"
+           id="com.plugin.phoneblock"
       version="0.1.0">
     <name>phone_block</name>
     <description>phone_block</description>
@@ -17,7 +17,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="phone_block">
-                <param name="android-package" value="com.plugin.phone.block_call"/>
+                <param name="android-package" value="com.plugin.phoneblock"/>
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
