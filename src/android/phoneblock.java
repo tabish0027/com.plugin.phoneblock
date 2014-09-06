@@ -13,7 +13,7 @@ import org.json.JSONException;
 
 import android.content.Intent;
 
-public class phone_block extends CordovaPlugin {
+public class phoneblock extends CordovaPlugin {
 
 	public static final String action="add";
 	@Override 
