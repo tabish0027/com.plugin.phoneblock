@@ -6,7 +6,7 @@
     <name>phone_block</name>
     <description>phone_block</description>
     <license>MIT</license>
-    <keywords>phonegap,calendar</keywords>
+    <keywords>phone</keywords>
 
 
     <js-module src="www/phone_block.js" name="block">
