@@ -6,11 +6,11 @@
     <name>phone_block</name>
     <description>phone_block</description>
     <license>MIT</license>
-    <keywords>phonegap,phone_block</keywords>
+    <keywords>phonegap,phone_block,phoneblock</keywords>
 
 
     <js-module src="www/phone_block.js" name="block">
-        <clobbers target="window.phone_block" />
+        <clobbers target="window.phoneblock" />
     </js-module>
 
     <!-- android -->
@@ -30,7 +30,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 			</config-file>
 
-        <source-file src="src/android/phone_block.java" target-dir="src/com/plugin/phone_block" />      
+        <source-file src="src/android/phone_block.java" target-dir="src/com/plugin/phoneblock" />      
 
      </platform>          
 </plugin>
