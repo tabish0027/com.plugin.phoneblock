@@ -30,7 +30,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 			</config-file>
 
-        <source-file src="src/android/com/plugin/phoneblock/phone_block.java" target-dir="com.plugin.phone" />      
+        <source-file src="src/android/phone_block.java" target-dir="src/com/plugin/phone_block" />      
 
      </platform>          
 </plugin>
